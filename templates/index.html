@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>Gemstone Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
+    <a href="https://github.com/arindam-29/ML_reg_docker_deploy" class="top-left-link" target="_blank">GitHub Repository Link</a>
     <h1>Gemstone Price Prediction</h1>
+    <img src="{{url_for('static', filename='/Image/your_profile_pic.jpeg')}}" alt="Your Profile Picture" class="profile">
     <form action="{{url_for('predict_datapoint')}}" method="POST">
         <div class="form-group">
             <label for="carat">Carat:</label>
