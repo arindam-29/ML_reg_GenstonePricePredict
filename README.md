@@ -1,10 +1,10 @@
-# Gemstone Price Prediction - Utkarsh Gaikwad
+# Gemstone price prediction
 
-### Introduction About the Data :
+#### Introduction About the Data :
 
 Please this project is of a student. Just wanted to appreciate for knowledge sharing 
 
-**The dataset** The goal is to predict `price` of given diamond (Regression Analysis).
+***The dataset*** The goal is to predict `price` of given diamond (Regression Analysis).
 
 There are 10 independent variables (including `id`):
 
@@ -25,9 +25,9 @@ Target variable:
 Dataset Source Link :
 [https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv](https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv)
 
-### It is observed that the categorical variables 'cut', 'color' and 'clarity' are ordinal in nature
+#### It is observed that the categorical variables 'cut', 'color' and 'clarity' are ordinal in nature
 
-### Check this link for details : [American Gem Society](https://www.americangemsociety.org/ags-diamond-grading-system/)
+#### Check this link for details : [American Gem Society](https://www.americangemsociety.org/ags-diamond-grading-system/)
 
 # Approach
 
